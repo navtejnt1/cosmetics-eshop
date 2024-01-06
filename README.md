@@ -10,23 +10,23 @@
 -
 
 # Team members:-
-Navtej:- <br/>
+ ## Navtej:- <br/>
 - https://www.linkedin.com/in/navtej-anand/ <br/>
 - https://github.com/navtejnt1 <br/>
 
-Vivek Verma:- <br/>
+## Vivek Verma:- <br/>
 - https://github.com/vivekverma4669 <br/>
 - https://www.linkedin.com/in/vivek-verma-594700228/ <br/>
 
-Rohan:- <br/>
+## Rohan:- <br/>
 - https://www.linkedin.com/in/rohankansara/ <br/>
 - https://github.com/RohanKansara01 <br/>
 
-Madhukar Kumar:- <br/>
-- <br/>
-- <br/>
+## Madhukar Kumar:- <br/>
+- https://github.com/Madhukarkrgithub<br/>
+- https://www.linkedin.com/in/madhukarkr2468/<br/>
 
-Rishik Sinha:- <br/>
+## Rishik Sinha:- <br/>
 - <br/>
 - <br/>
 
