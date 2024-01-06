@@ -10,6 +10,7 @@
 -
 
 # Team members:-
+
  ## Navtej:- <br/>
 - https://www.linkedin.com/in/navtej-anand/ <br/>
 - https://github.com/navtejnt1 <br/>
@@ -22,10 +23,7 @@
 - https://www.linkedin.com/in/rohankansara/ <br/>
 - https://github.com/RohanKansara01 <br/>
 
-## Madhukar Kumar:- <br/>
-
-- ## [GitHub](https://github.com/Madhukarkrgithub)
-- ## [Linkedin](https://www.linkedin.com/in/madhukarkr2468/) <br/>
+## Madhukar Kumar => [GitHub](https://github.com/Madhukarkrgithub)   [Linkedin](https://www.linkedin.com/in/madhukarkr2468/)
 
 ## Rishik Sinha:- <br/>
 - <br/>
