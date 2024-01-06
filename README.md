@@ -23,8 +23,9 @@
 - https://github.com/RohanKansara01 <br/>
 
 ## Madhukar Kumar:- <br/>
-- https://github.com/Madhukarkrgithub<br/>
-- https://www.linkedin.com/in/madhukarkr2468/<br/>
+
+- ## [GitHub](https://github.com/Madhukarkrgithub)
+- ## [Linkedin](https://www.linkedin.com/in/madhukarkr2468/) <br/>
 
 ## Rishik Sinha:- <br/>
 - <br/>
