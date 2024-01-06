@@ -6,7 +6,7 @@ import { useToast,Button,PinInput,HStack,PinInputField, Modal,Text,Box,Alert,Ale
   ModalHeader,
   ModalFooter,
   ModalBody,FormControl,Input,FormLabel,
-  ModalCloseButton,useDisclosure } from '@chakra-ui/react'
+  ModalCloseButton,useDisclosure, background } from '@chakra-ui/react'
 import { useState } from "react";
 import { Link, Navigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
@@ -30,7 +30,7 @@ const [randomOtp,setRandomOtp]= useState('')
                 
                 () =>{
 
-                  if(phone.length!=10){
+                  if(phone.length!==10){
                     alert("Please enter a valid phone number")
                  }
 
@@ -70,7 +70,7 @@ const [randomOtp,setRandomOtp]= useState('')
         return (
           <>
             <Button onClick={onOpen} mr={3} mt='30px' bg='black' color='white'>VALIDATE OTP</Button>
-            { (randomOtp==pin) ? 
+            { (randomOtp===pin) ? 
             <Modal  isOpen={isOpen} onClose={onClose}>
            
               <ModalOverlay />
@@ -151,11 +151,12 @@ const [randomOtp,setRandomOtp]= useState('')
           <img
             className={styles.image}
             src="https://media.sugarcosmetics.com/upload/authSIe2.jpg"
+            alt="image"
           />
         </div>
         <div className={styles.img_right}>
           <div className={styles.hi_image}>
-            <img src="https://media.sugarcosmetics.com/upload/Hi!.png" />
+            <img src="https://media.sugarcosmetics.com/upload/Hi!.png" alt="image"/>
           </div>
           <div className={styles.logininput}>
             <h3>Login/Sign Up Using Phone</h3>
