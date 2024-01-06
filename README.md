@@ -13,13 +13,13 @@
 
  ## Navtej -> [GitHub](https://github.com/navtejnt1) , [Linkedin](https://www.linkedin.com/in/navtej-anand/)
 
-## Vivek Verma -> [GitHub](https://github.com/vivekverma4669) , [Linkedin](https://www.linkedin.com/invivek-verma-594700228/)
+## Vivek Verma -> [GitHub](https://github.com/vivekverma4669) , [Linkedin](https://www.linkedin.com/in/vivek-verma-594700228/)
 
 ## Rohan -> [GitHub](https://github.com/RohanKansara01) , [Linkedin](https://www.linkedin.com/in/rohankansara/)
 
 ## Madhukar Kumar -> [GitHub](https://github.com/Madhukarkrgithub) , [Linkedin](https://www.linkedin.com/in/madhukarkr2468/)
 
-## Rishik Sinha -> [GitHub]()
+## Rishik Sinha -> [GitHub]() , [Linkedin]()
 
 # Tech Stack:-
 - HTML
