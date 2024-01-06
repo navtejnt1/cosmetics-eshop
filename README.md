@@ -4,7 +4,7 @@
 
 **moaning-distribution-2092**
 
-**sugar cosmetics clone**
+**Sugar Cosmetics Clone**
 
 # Deployed Link:-
 -
