@@ -55,7 +55,7 @@ function Makeup() {
 
   }
   useEffect(() => {
-    let url = "https://cosmeticsapi1.herokuapp.com/makeup"
+    let url = "https://makeup-api.herokuapp.com/api/v1/products.json?_limit=30"
     if (prod.length !== 0 && order.length !== 0)
       url = `https://cosmeticsapi1.herokuapp.com/makeup?_sort=price&_order=${order}&q=${prod}`
     else if (prod.length !== 0)

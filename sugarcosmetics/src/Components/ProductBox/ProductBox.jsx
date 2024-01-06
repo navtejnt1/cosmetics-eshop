@@ -33,7 +33,7 @@ return <div>
               {props.price === '0.0' ?  "₹ 999" : `₹${props.price*70..toFixed(0)}`}
               </div>
               <div className={styles.buttongrp}>
-             <button> <IconButton border='2px solid black' fontSize='18px' as={FiHeart} color='black' p='3px'/></button>
+             <button  > <IconButton border='2px solid black' fontSize='18px' as={FiHeart} color='black' p='3px'/></button>
               <button onClick={()=>dispatch(addToCart(payload))}  style={{width:"150px",color:"white",backgroundColor:"black",borderRadius:"5px"}} >ADD TO CART</button>
               </div>
               </div>

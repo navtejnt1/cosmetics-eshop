@@ -156,47 +156,47 @@ const bestsellerImages= [
   {
     url: "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FLipstick-_-Kohl-Value-Set---WBG_1.jpg%3Fv%3D1692719185&w=256&q=75",
     description:"Lipstick and kohal set",
-    price:"999",
+    price:"14",
   }
   ,
   {
     url:   "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2F489511912-women-s-day-gifting-kit-wbg-images_1.jpg%3Fv%3D1688227825&w=256&q=75",
     description:"All you need Beauty kit ",
-    price:"1299",
+    price:"14",
   },
   {
     url: "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F554408657-wedding-makeup-kit-revamp_1.jpg%3Fv%3D1700475948&w=256&q=75",
     description:"Weeding Makeup kit ",
-    price:"1799",
+    price:"13",
   },
   {
     url:  "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F566527803-the-office-makeup-kit-wbg-1.jpg%3Fv%3D1704460836&w=256&q=75",
     description:"The Ofiice Makeup kit ",
-    price:"999",
+    price:"14",
     
   },
   {
     url:  "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FValue-Sets---WBG-Listing_de1b12a1-0bf9-4ea0-8f47-fafa1c76bafa.jpg%3Fv%3D1694187888&w=256&q=75",
     description:"Priming Mostrixzue and foundation duo",
-    price:"899",
+    price:"13",
     
   },
   {
     url:   "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FValue-Sets---WBG-Listing_543b4a34-7c88-4bf5-b51a-26354f743fcb.jpg%3Fv%3D1694187910&w=256&q=75",
     description:"Lips so pretty duo",
-    price:"1199",
+    price:"8",
     
   },
   {
     url:  "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2FAirKissPowderPoweredByImagesArtboard1.jpg%3Fv%3D1644813116&w=256&q=75",
     description:"Air kiss powder Lipstick",
-    price:"250",
+    price:"13",
     
   },
   {
     url:   "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2F489511912-women-s-day-gifting-kit-wbg-images_1.jpg%3Fv%3D1688227825&w=256&q=75",
     description:"All you need Beauty kit ",
-    price:"1299",
+    price:"11",
     
   }
  
@@ -216,49 +216,49 @@ const justinImages=[
   {
     url:"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FSibling-Love-Limited-Edition-Gift-Set---WBG.jpg%3Fv%3D1700063053&w=256&q=75",
     description:"Pujo Special Makeup Kit",
-    price:"2099",
+    price:"14",
     
   },
   {
     url:"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FLaunch-Arch-Arrival-Brow-Styler.jpg%3Fv%3D1694706131&w=256&q=75",
     description:"Arch Arrival brow Styler",
-    price:"799",
+    price:"14",
     
   },
   {
     url:"https://cdn.shopify.com/s/files/1/0906/2558/products/1_2d186f9b-9024-4e23-a0d2-a55b7671e89c.jpg?v=1657123108",
     description:"Pujo Special Makeup Kit",
-    price:"2099",
+    price:"14",
     
   },
   {
     url:"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F549928439-main-img.jpg%3Fv%3D1698248481&w=256&q=75",
     description:"Pujo Special Makeup Kit",
-    price:"2099",
+    price:"14",
     
   },
   {
     url:"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F1_302fb1a0-4862-49b1-bd45-404e6ce8e578.jpg%3Fv%3D1696571396&w=256&q=75",
     description:"Pujo Special Makeup Kit",
-    price:"2099",
+    price:"14",
     
   },
   {
     url:"https://cdn.shopify.com/s/files/1/0906/2558/products/2_d5e8f5f6-db6f-43d4-a1ac-1da7b22fdc1b.jpg?v=1652943021",
     description:"Pujo Special Makeup Kit",
-    price:"2099",
+    price:"14",
     
   },
   {
     url:"https://cdn.shopify.com/s/files/1/0906/2558/products/1_61109b87-1ae6-4cb4-8550-5b57d688a4eb.jpg?v=1651852771",
     description:"Pujo Special Makeup Kit",
-    price:"2099",
+    price:"14",
     
   },
   {
     url:"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FTravelMakeupKit_1.jpg%3Fv%3D1695397658&w=256&q=75",
     description:"Travel Ready Makeup Kit",
-    price:"2099",
+    price:"14",
     
   }
 ]
@@ -276,49 +276,49 @@ const giftingImages = [
   {
     url:"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FLipstick-_-Kohl-Value-Set---WBG_1.jpg%3Fv%3D1692719185&w=256&q=75",
     description:"Eye Liner ",
-    price:"1699",
+    price:"14",
     
   },
   {
     url:"https://cdn.shopify.com/s/files/1/0906/2558/products/WBG1_09f0cf83-792a-4185-8882-5e5e6909a459.jpg?v=1657814596",
     description:"Wedding Makeup Kit",
-    price:"1699",
+    price:"14",
     
   },
   {
     url:"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F554408657-wedding-makeup-kit-revamp_1.jpg%3Fv%3D1700475948&w=256&q=75",
     description:"Wedding Makeup Kit",
-    price:"1699",
+    price:"13",
     
   },
   {
     url:"https://cdn.shopify.com/s/files/1/0906/2558/products/1_0cbf7ca7-3b1c-4838-8fda-176ebd7d38fa.jpg?v=1649423983",
     description:"Wedding Makeup Kit",
-    price:"1699",
+    price:"13",
     
   },
   {
     url:"https://cdn.shopify.com/s/files/1/0906/2558/products/RakshaBandhanKit-WBGImages.jpg?v=1654694624",
     description:"Wedding Makeup Kit",
-    price:"1699",
+    price:"14",
     
   },
   {
     url:"https://cdn.shopify.com/s/files/1/0906/2558/products/1_0ca61ef7-05ce-49be-9fa1-de7c41b99a1f.jpg?v=1650022932",
     description:"Wedding Makeup Kit",
-    price:"1699",
+    price:"13",
     
   },
   {
     url:"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2Fparent1stcard_1_7aa4b700-2b5f-4212-8b56-86889ab8a390.jpg%3Fv%3D1689262362&w=256&q=75",
     description:"Wedding Makeup Kit",
-    price:"1699",
+    price:"14",
     
   },
   {
     url:"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2F489511912-women-s-day-gifting-kit-wbg-images_1.jpg%3Fv%3D1688227825&w=256&q=75",
     description:"Wedding Makeup Kit",
-    price:"1699",
+    price:"14",
     
   }
 ]
@@ -328,49 +328,49 @@ const supersaverImages=[
   {
     url:"https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-smudge-me-not-liquid-lipstick-matte-as-hell-crayon-lipstick-value-set-14600053391443.jpg?v=1619119204",
     description:"Lipstick value set",
-    price:"1149",
+    price:"11",
     
   },
   {
     url:"https://cdn.shopify.com/s/files/1/0906/2558/products/Value-Set-11---WBG-Images_1.jpg?v=1659456262",
     description:"Lipstick value set",
-    price:"1149",
+    price:"11",
     
   },
   {
     url:"https://cdn.shopify.com/s/files/1/0906/2558/products/2_bb525208-246a-4f40-b57f-d88372708398.jpg?v=1655308814",
     description:"Lipstick value set",
-    price:"1149",
+    price:"11",
     
   },
   {
     url:"https://cdn.shopify.com/s/files/1/0906/2558/products/1_e4b6c948-178e-4bfe-a3b3-926119dea615.jpg?v=1649865681",
     description:"Lipstick value set",
-    price:"1149",
+    price:"11",
     
   },
   {
     url:"https://cdn.shopify.com/s/files/1/0906/2558/products/1_e4b6c948-178e-4bfe-a3b3-926119dea615.jpg?v=1649865681",
     description:"Lipstick value set",
-    price:"1149",
+    price:"11",
     
   },
   {
     url:"https://cdn.shopify.com/s/files/1/0906/2558/products/WBG1_73e85cb4-80d8-4eeb-ba32-deaf11c4483f.jpg?v=1658851292",
     description:"Lipstick value set",
-    price:"1149",
+    price:"14",
     
   },
   {
     url:"https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-lip-balm-sheet-mask-15782913671251.jpg?v=1619152222",
     description:"Lipstick value set",
-    price:"1149",
+    price:"11",
     
   },
   {
     url:"https://cdn.shopify.com/s/files/1/0906/2558/products/WBG1_ce9e0d25-5cd4-44a0-80cd-3856d9c7850d.jpg?v=1658937586",
     description:"Lipstick value set",
-    price:"1149",
+    price:"11",
     
   },
 ]

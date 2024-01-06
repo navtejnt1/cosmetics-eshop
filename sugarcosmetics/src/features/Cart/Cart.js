@@ -19,6 +19,8 @@ userName:'Login/Register'
         state.cartItems.push({ ...action.payload, quantity: 1 });
       }
     },
+
+    
     incrementQuantity: (state, action) => {
       const item = state.cartItems.find((item) => item.id === action.payload);
       item.quantity++;

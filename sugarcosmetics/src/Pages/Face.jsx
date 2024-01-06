@@ -50,7 +50,7 @@ function Face() {
 
   }
   useEffect(() => {
-    let url = "https://cosmeticsapi1.herokuapp.com/Face"
+    let url = "http://makeup-api.herokuapp.com/api/v1/products.json?product_type=blush"
     if (prod.length !== 0 && order.length !== 0)
       url = `https://cosmeticsapi1.herokuapp.com/Face?_sort=price&_order=${order}&q=${prod}`
     else if (prod.length !== 0)
@@ -116,7 +116,7 @@ function Face() {
         </Box>
         <Grid display='grid' templateColumns={{ lg:'repeat(3,1fr)',md:'repeat(2,1fr)',sm:'repeat(1,1fr)'}} w='75%' m='10px'>
 
-          {data.map((elem) => (elem.price !== undefined && <GridItem><ProductBox rating={elem.rating} catg={elem.catg} id={elem.id} url={elem.image} description={elem.name} price={elem.price} /></GridItem>))}
+          {data.map((elem) => (elem.price !== undefined && <GridItem><ProductBox rating={elem.rating} catg={elem.catg} id={elem.id} url={elem.api_featured_image} description={elem.name} price={elem.price} /></GridItem>))}
 
 
         </Grid>

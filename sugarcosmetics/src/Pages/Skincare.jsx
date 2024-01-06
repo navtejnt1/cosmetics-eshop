@@ -51,13 +51,13 @@ function Skincare() {
 
   }
   useEffect(() => {
-    let url = "https://cosmeticsapi1.herokuapp.com/Skincare"
+    let url = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=foundation"
     if (prod.length !== 0 && order.length !== 0)
-      url = `https://cosmeticsapi1.herokuapp.com/Skincare?_sort=price&_order=${order}&q=${prod}`
+      url = `https://makeup-api.herokuapp.com/api/v1/products.json?product_type=foundation?_sort=price&_order=${order}&q=${prod}`
     else if (prod.length !== 0)
-      url = `https://cosmeticsapi1.herokuapp.com/Skincare?q=${prod}`
+      url = `https://makeup-api.herokuapp.com/api/v1/products.json?product_type=foundation?q=${prod}`
     else if (order.length !== 0)
-      url = `https://cosmeticsapi1.herokuapp.com/Skincare?_sort=price&_order=${order}`
+      url = `https://makeup-api.herokuapp.com/api/v1/products.json?product_type=foundation?_sort=price&_order=${order}`
 
     getData(url);
 
@@ -124,7 +124,8 @@ function Skincare() {
         </Box>
         <Grid display='grid' templateColumns={{ lg:'repeat(3,1fr)',md:'repeat(2,1fr)',sm:'repeat(1,1fr)'}} w='75%' m='10px'>
 
-          {data.map((elem) => (elem.price !== undefined && <GridItem><ProductBox rating={elem.rating} catg={elem.catg} id={elem.id} url={elem.image} description={elem.name} price={elem.price} /></GridItem>))}
+          {data.map((elem) => (elem.price !== undefined && <GridItem><ProductBox rating={elem.rating} catg={elem.catg} id={elem.id} url={elem.api_featured_image
+} description={elem.name} price={elem.price} /></GridItem>))}
 
 
         </Grid>

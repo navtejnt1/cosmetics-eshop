@@ -7,13 +7,14 @@ function NavigationBottom
 <div className={styles.navbottom}>
       <div className={styles.div3}>
                 <div className={styles.makeup}/*  style={{backgroundColor:'pink'}} */ >
-                    <Link
+                    {/* {<Link
                         to="/makeup"
-                        style={{ fontSize: "14px" /* fontFamily: "Quicksand" */ }}
+                        style={{ fontSize: "14px"}}
                         id={styles.link}
                     >
                         Makeup
-                    </Link>
+                    </Link> } */}
+                    Makeup
 
                     <div className={styles.dropdown1} >
                         <Link to="/lips">LIPS</Link>
@@ -71,13 +72,14 @@ function NavigationBottom
                 
 
                 <div >
-                    <Link
+                    {/* <Link
                         to="/blog"
-                        style={{ fontSize: "14px", /* fontFamily: "Quicksand" */ }}
+                        style={{ fontSize: "14px",  }}
                         id={styles.link}
                     >
                         Blog
-                    </Link>
+                    </Link> */}
+                    <a href="https://in.sugarcosmetics.com/blog"  style={{ fontSize: "14px",  }}> Blog </a>
                 </div>
                 <div>
                     <Link
@@ -97,15 +99,15 @@ function NavigationBottom
                         Stores
                     </Link>
                 </div>
-                <div>
+                {/* <div>
                     <Link
                         to="/diwaligifting"
-                        style={{ fontSize: "14px", /* fontFamily: "Quicksand" */ }}
+                        style={{ fontSize: "14px",  }}
                         id={styles.link}
                     >
                         Diwali Gifting
                     </Link>
-                </div>
+                </div> */}
             </div>
     </div></div>
 }
