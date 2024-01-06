@@ -9,25 +9,17 @@
 # Deployed Link:-
 -
 
-# Team members:-
+## <span style="color:rgb(255, 200, 0)"> Team Members: </span>
 
- ## Navtej:- <br/>
-- https://www.linkedin.com/in/navtej-anand/ <br/>
-- https://github.com/navtejnt1 <br/>
+ ## Navtej -> [GitHub](https://github.com/navtejnt1) , [Linkedin](https://www.linkedin.com/in/navtej-anand/)
 
-## Vivek Verma:- <br/>
-- https://github.com/vivekverma4669 <br/>
-- https://www.linkedin.com/in/vivek-verma-594700228/ <br/>
+## Vivek Verma -> [GitHub](https://github.com/vivekverma4669) , [Linkedin](https://www.linkedin.com/invivek-verma-594700228/)
 
-## Rohan:- <br/>
-- https://www.linkedin.com/in/rohankansara/ <br/>
-- https://github.com/RohanKansara01 <br/>
+## Rohan -> [GitHub](https://github.com/RohanKansara01) , [Linkedin](https://www.linkedin.com/in/rohankansara/)
 
-## Madhukar Kumar => [GitHub](https://github.com/Madhukarkrgithub)   [Linkedin](https://www.linkedin.com/in/madhukarkr2468/)
+## Madhukar Kumar -> [GitHub](https://github.com/Madhukarkrgithub) , [Linkedin](https://www.linkedin.com/in/madhukarkr2468/)
 
-## Rishik Sinha:- <br/>
-- <br/>
-- <br/>
+## Rishik Sinha -> [GitHub]()
 
 # Tech Stack:-
 - HTML
