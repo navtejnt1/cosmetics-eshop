@@ -154,49 +154,49 @@ slidesToShow: 4,
 
 const bestsellerImages= [
   {
-    url: "https://cdn.shopify.com/s/files/1/0906/2558/products/1_529c20ee-c872-4029-9702-8580d7b9a66f.jpg?v=1640178644",
-    description:"Ace of Face Foundation Stick",
+    url: "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FLipstick-_-Kohl-Value-Set---WBG_1.jpg%3Fv%3D1692719185&w=256&q=75",
+    description:"Lipstick and kohal set",
     price:"999",
   }
   ,
   {
-    url:   "https://cdn.shopify.com/s/files/1/0906/2558/products/WBG1_09f0cf83-792a-4185-8882-5e5e6909a459.jpg?v=1657814596",
-    description:"Smudge me not mini lipstick",
-    price:"999",
+    url:   "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2F489511912-women-s-day-gifting-kit-wbg-images_1.jpg%3Fv%3D1688227825&w=256&q=75",
+    description:"All you need Beauty kit ",
+    price:"1299",
   },
   {
-    url: "https://cdn.shopify.com/s/files/1/0906/2558/products/424092031-1.jpg?v=1661529396",
-    description:"Ace of Face Foundation Stick",
-    price:"999",
+    url: "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F554408657-wedding-makeup-kit-revamp_1.jpg%3Fv%3D1700475948&w=256&q=75",
+    description:"Weeding Makeup kit ",
+    price:"1799",
   },
   {
-    url:  "https://cdn.shopify.com/s/files/1/0906/2558/products/1_6f55bcac-3e42-4253-88ee-cec0fa43c62a.jpg?v=1645608270",
-    description:"Ace of Face Foundation Stick",
+    url:  "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F566527803-the-office-makeup-kit-wbg-1.jpg%3Fv%3D1704460836&w=256&q=75",
+    description:"The Ofiice Makeup kit ",
     price:"999",
     
   },
   {
-    url:  "https://cdn.shopify.com/s/files/1/0906/2558/products/1_51afaa84-af89-42b5-bdb8-a51b01257bc0.jpg?v=1639582607",
-    description:"Ace of Face Foundation Stick",
-    price:"999",
+    url:  "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FValue-Sets---WBG-Listing_de1b12a1-0bf9-4ea0-8f47-fafa1c76bafa.jpg%3Fv%3D1694187888&w=256&q=75",
+    description:"Priming Mostrixzue and foundation duo",
+    price:"899",
     
   },
   {
-    url:   "https://cdn.shopify.com/s/files/1/0906/2558/products/01_d6ffec78-c2b6-4466-8672-233fee0285a8.jpg?v=1644394232",
-    description:"Ace of Face Foundation Stick",
-    price:"999",
+    url:   "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FValue-Sets---WBG-Listing_543b4a34-7c88-4bf5-b51a-26354f743fcb.jpg%3Fv%3D1694187910&w=256&q=75",
+    description:"Lips so pretty duo",
+    price:"1199",
     
   },
   {
-    url:  "https://cdn.shopify.com/s/files/1/0906/2558/products/01_5e8187e3-f7a2-40aa-a759-d4bf69769234.jpg?v=1639496327",
-    description:"Ace of Face Foundation Stick",
-    price:"999",
+    url:  "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2FAirKissPowderPoweredByImagesArtboard1.jpg%3Fv%3D1644813116&w=256&q=75",
+    description:"Air kiss powder Lipstick",
+    price:"250",
     
   },
   {
-    url:  "https://cdn.shopify.com/s/files/1/0906/2558/products/1_e9355d54-6ddb-4aa4-bdfc-176a676db886.jpg?v=1657257149",
-    description:"Ace of Face Foundation Stick",
-    price:"999",
+    url:   "https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2F489511912-women-s-day-gifting-kit-wbg-images_1.jpg%3Fv%3D1688227825&w=256&q=75",
+    description:"All you need Beauty kit ",
+    price:"1299",
     
   }
  
@@ -204,8 +204,8 @@ const bestsellerImages= [
 ]
 
 const hotdeals=[
- "https://d32baadbbpueqt.cloudfront.net/Homepage/6f66062a-1a39-4252-852b-646acb35d9af.jpg",
-  "https://d32baadbbpueqt.cloudfront.net/Homepage/6359ed8e-1f43-44aa-b602-5142a7bfbd9f.jpg",
+ "https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/72202ad7-4872-4d81-b61e-09dc2621d887.jpg&w=1920&q=75",
+  "https://d32baadbbpueqt.cloudfront.net/Homepage/9b92bb73-edd9-4b40-84be-c0a3f9c32d7c.gif",
   "https://d32baadbbpueqt.cloudfront.net/Homepage/7b0cbcd1-1433-484d-8ae1-6f54f52e73fa.jpg",
   "https://d32baadbbpueqt.cloudfront.net/Homepage/ee7aec73-2712-4b13-b979-8af7326e6219.jpg",
   "https://d32baadbbpueqt.cloudfront.net/Homepage/6f66062a-1a39-4252-852b-646acb35d9af.jpg",
@@ -214,15 +214,15 @@ const hotdeals=[
 
 const justinImages=[
   {
-    url:"https://cdn.shopify.com/s/files/1/0906/2558/products/427145088-pujo-everyday-kit-wbg-01.jpg?v=1662999028",
+    url:"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FSibling-Love-Limited-Edition-Gift-Set---WBG.jpg%3Fv%3D1700063053&w=256&q=75",
     description:"Pujo Special Makeup Kit",
     price:"2099",
     
   },
   {
-    url:"https://cdn.shopify.com/s/files/1/0906/2558/products/01_with_pouch-_without-sleeves.jpg?v=1662567157",
-    description:"Pujo Special Makeup Kit",
-    price:"2099",
+    url:"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FLaunch-Arch-Arrival-Brow-Styler.jpg%3Fv%3D1694706131&w=256&q=75",
+    description:"Arch Arrival brow Styler",
+    price:"799",
     
   },
   {
@@ -232,13 +232,13 @@ const justinImages=[
     
   },
   {
-    url:"https://cdn.shopify.com/s/files/1/0906/2558/products/Monsoon-Makeup-Kit---WBG-Images_1_66ba2237-0dad-42dc-88ea-c2d45555dd6a.jpg?v=1657814549",
+    url:"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F549928439-main-img.jpg%3Fv%3D1698248481&w=256&q=75",
     description:"Pujo Special Makeup Kit",
     price:"2099",
     
   },
   {
-    url:"https://cdn.shopify.com/s/files/1/0906/2558/products/399160329-9-to-5-makeup-kit-wbg-01.jpg?v=1654013564",
+    url:"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F1_302fb1a0-4862-49b1-bd45-404e6ce8e578.jpg%3Fv%3D1696571396&w=256&q=75",
     description:"Pujo Special Makeup Kit",
     price:"2099",
     
@@ -256,8 +256,8 @@ const justinImages=[
     
   },
   {
-    url:"https://cdn.shopify.com/s/files/1/0906/2558/products/382512089-mettle-priming-balm-01.jpg?v=1648654861",
-    description:"Pujo Special Makeup Kit",
+    url:"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FTravelMakeupKit_1.jpg%3Fv%3D1695397658&w=256&q=75",
+    description:"Travel Ready Makeup Kit",
     price:"2099",
     
   }
@@ -274,8 +274,8 @@ const toppicks= [
 
 const giftingImages = [
   {
-    url:"https://cdn.shopify.com/s/files/1/0906/2558/products/04_b475d6dd-c07b-43b0-9f78-c989b2fe4f6d.jpg?v=1659446263",
-    description:"Wedding Makeup Kit",
+    url:"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FLipstick-_-Kohl-Value-Set---WBG_1.jpg%3Fv%3D1692719185&w=256&q=75",
+    description:"Eye Liner ",
     price:"1699",
     
   },
@@ -286,7 +286,7 @@ const giftingImages = [
     
   },
   {
-    url:"https://cdn.shopify.com/s/files/1/0906/2558/products/1_37e8dc88-a720-44ed-a5f3-1e0f0e95bc17.jpg?v=1659517990",
+    url:"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F554408657-wedding-makeup-kit-revamp_1.jpg%3Fv%3D1700475948&w=256&q=75",
     description:"Wedding Makeup Kit",
     price:"1699",
     
@@ -310,13 +310,13 @@ const giftingImages = [
     
   },
   {
-    url:"https://cdn.shopify.com/s/files/1/0906/2558/products/PartyReadyKit-WBG1.png?v=1642487420",
+    url:"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2Fparent1stcard_1_7aa4b700-2b5f-4212-8b56-86889ab8a390.jpg%3Fv%3D1689262362&w=256&q=75",
     description:"Wedding Makeup Kit",
     price:"1699",
     
   },
   {
-    url:"https://cdn.shopify.com/s/files/1/0906/2558/products/1_969f5548-2c56-4506-ada8-159b53a8f630.jpg?v=1649423977",
+    url:"https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2F489511912-women-s-day-gifting-kit-wbg-images_1.jpg%3Fv%3D1688227825&w=256&q=75",
     description:"Wedding Makeup Kit",
     price:"1699",
     
@@ -421,19 +421,19 @@ const exploreImages =[
         
         <Slider {...settings1}  className={styles.bannerSlider1}  >
           <div>
-            <img src="https://d32baadbbpueqt.cloudfront.net/Homepage/1a5a5848-f287-4da7-b122-23ccb9324c83.jpg" alt= "img"/>
+            <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2F5821a81c-6d53-4001-83ea-8ef0be288d81.jpg&w=1920&q=75" alt= "img"/>
           </div>
           <div>
-         <img src="https://d32baadbbpueqt.cloudfront.net/Homepage/2938eed1-8d16-4dec-bab2-f6e484adb659.gif" alt="" />
+         <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2F5184a46d-92d8-472d-9560-45620908b294.jpg&w=1920&q=75" alt="" />
           </div>
           <div>
-           <img src="https://d32baadbbpueqt.cloudfront.net/Homepage/0a0d2b46-e424-4f4c-baf3-da2d2fc14f88.jpg" alt="" />
+           <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fabd3d589-694b-4f81-a74e-2d836d0edf3a.jpg&w=1920&q=75" alt="" />
           </div>
           <div>
             <img src="https://d32baadbbpueqt.cloudfront.net/Homepage/2d934fad-8c2a-4f7d-85fc-ea1ed8f23673.jpg" alt="" />
           </div>
           <div>
-           <img src="https://d32baadbbpueqt.cloudfront.net/Homepage/1fa29c9d-b7b6-4aa9-ac54-a2195c10fc63.jpg" alt="" />
+           <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fbe3dd028-8d91-40c7-80aa-4e6ba127f80c.jpg&w=1920&q=75" alt="" />
           </div>
           <div>
            <img src="https://d32baadbbpueqt.cloudfront.net/Homepage/1fa29c9d-b7b6-4aa9-ac54-a2195c10fc63.jpg" alt="" />
@@ -476,7 +476,7 @@ const exploreImages =[
 
 {/* BEST SELLERS */}
         <div className={styles.bestsellers}>
-        <h1 className={styles.headings}>BEST SELLERS</h1>
+        <h1 className={styles.headings}> BEST SELLERS</h1>
           <Slider {...settings2} className={styles.bestsellersSlider} >
            
              { bestsellerImages.map((image)=> 
@@ -500,7 +500,7 @@ const exploreImages =[
 {/* JUST IN */}
 
         <div className={styles.justin}>
-        <h1 className={styles.headings2}>JUST IN</h1>
+        <h1 className={styles.headings2} style={{color:"white"}}>JUST IN</h1>
         <Slider {...settings2} className={styles.justinSlider}>
            
            { justinImages.map((image)=> 
@@ -513,11 +513,11 @@ const exploreImages =[
 
         {/* SUGAR HAI */}
         <div className={styles.sugarhain}>
-        <h1 className={styles.headings2}>SHUKAR HAI SUGAR HAI</h1>
+        <h1 className={styles.headings2} style={{textShadow : "2px 2px 3px black"}} >SHUKAR HAI SUGAR HAI</h1>
         
-<AspectRatio  ratio={2.68} w='93%'m='auto' borderRadius='20px' position='relative'  className={styles.video1}>
+<AspectRatio  ratio={2.68} w='93%'m='auto' borderRadius='20px' position='relative'  className={styles.video1 }>
      
-  <iframe
+  <iframe 
    
     title="SUGAR's New TV Commercial"
     src='https://www.youtube.com/embed/ZNPEgRIEkBY'
@@ -550,7 +550,7 @@ const exploreImages =[
         {/* GIFTING */}
 
         <div className={styles.justin}>
-        <h1 className={styles.headings2}>GIFTING</h1>
+        <h1 className={styles.headings2}  style={{color:"white"}}>GIFTING</h1>
         <Slider {...settings2} className={styles.justinSlider}>
            
            { giftingImages.map((image)=> 
@@ -594,7 +594,7 @@ const exploreImages =[
           {/* SUGAR STREAM */}
 
           <div className={styles.justin}>
-        <h1 className={styles.headings2}>SUGAR STREAM</h1>
+        <h1 className={styles.headings2}  style={{color:"white"}} >SUGAR STREAM</h1>
         <Slider {...settings4} className={styles.justinSlider}>
            
            { videoLinks.map((image)=> 

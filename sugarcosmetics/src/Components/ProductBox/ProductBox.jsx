@@ -16,8 +16,6 @@ function ProductBox(props){
        id: props.id,
     }
  
-
-   
     
 return <div>
  
@@ -32,7 +30,7 @@ return <div>
         <Text color='green'>{props.rating}</Text>
         </Box>
               <div className={styles.productPrice}>
-              ₹{props.price}  
+              {props.price === '0.0' ?  "₹ 999" : `₹${props.price*70..toFixed(0)}`}
               </div>
               <div className={styles.buttongrp}>
              <button> <IconButton border='2px solid black' fontSize='18px' as={FiHeart} color='black' p='3px'/></button>

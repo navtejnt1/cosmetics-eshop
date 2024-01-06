@@ -8,6 +8,7 @@
   padding: 20px;
  }
  .headings2{
+
   color: black;
   padding: 10px;
   font-size: 20px;
@@ -19,17 +20,18 @@
  .bestsellers{
   margin: 40px 0px;
  
-  background: url('https://media.sugarcosmetics.com/upload/homePageBackGroundTexture.jpg');
-  
+  /* background: url('https://media.sugarcosmetics.com/upload/homePageBackGroundTexture.jpg'); */
+  background: url('https://i.pinimg.com/originals/9a/c6/c4/9ac6c4c0e71c2f3b19d1a61eeb758c0b.jpg');
  }
  .supersavers{
   margin: 30px 0px;
  
-  background: url('https://media.sugarcosmetics.com/upload/VTOBackgroungTexture.png');
+  background: url('https://i.pinimg.com/originals/9a/c6/c4/9ac6c4c0e71c2f3b19d1a61eeb758c0b.jpg');
   
  }
  .justin{
-  margin: 20px 60px;
+  background: url('https://i.pinimg.com/originals/9a/c6/c4/9ac6c4c0e71c2f3b19d1a61eeb758c0b.jpg');
+  /* margin: 20px 60px; */
   padding: 10px;
  
  }
@@ -48,6 +50,8 @@
   border-radius: 20px;
  }
  .hotdeals{
+  /* background: url('https://media.sugarcosmetics.com/upload/homePageBackGroundTexture.jpg'); */
+ 
   background-color: whitesmoke;
  
  }

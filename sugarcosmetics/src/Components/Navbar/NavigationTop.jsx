@@ -13,8 +13,7 @@ import NavigationBottom from './NavigationBottom'
 import {toggleSearch} from '../../features/Cart/Cart'
 import { useEffect } from "react";
 
-function NavigationTop
-(){
+function NavigationTop(){
 
    const username = useSelector((state)=>state.cart.userName)
    console.log("username"+username)
@@ -22,7 +21,6 @@ function NavigationTop
   const dispatch = useDispatch();
  
 const  handleSearch = ()=>{
-
   dispatch(toggleSearch(searchQuery))
  setSearchQuery("")
 }
@@ -79,7 +77,7 @@ const getTotalQuantity = () => {
    {/*    <Link   as={} size='xs' w={6} h={6} mr='6px' color='white' variant='unstyled'/> */}
    <Link to='/' ><BiHeart style={{marginRight:'6px'}} fontSize="20px" color='white'/></Link>
     <div>
-        <div className={styles.quantityNum}><p  >{getTotalQuantity() || 0}</p></div>
+        <div className={styles.quantityNum}><p>{getTotalQuantity() || 0}</p></div>
     
      <Link to='/cart' ><BiShoppingBag fontSize="20px" style={{marginRight:'6px'}}  color='white'/>
      </Link>
