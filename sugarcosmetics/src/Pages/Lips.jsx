@@ -42,7 +42,6 @@ function Lips() {
   }
   function changeUrlOrder(order) {
     setOrder(order);
-
   }
   function changeUrlType(prod) {
     setProd(prod)
@@ -52,7 +51,7 @@ function Lips() {
     if (prod.length !== 0 && order.length !== 0)
       url = `https://makeup-api.herokuapp.com/api/v1/products.json?product_type=lipstick?_sort=price&_order=${order}&q=${prod}`
     else if (prod.length !== 0)
-      url = `https://makeup-api.herokuapp.com/api/v1/products.json?product_type=lipstick?q=${prod}`
+      url = `https://makeup-api.herokuapp.com/api/v1/products.json?product_category=${prod}&product_type=lipstick`
     else if (order.length !== 0)
       url = `https://makeup-api.herokuapp.com/api/v1/products.json?product_type=lipstick?_sort=price&_order=${order}`
 
@@ -103,10 +102,9 @@ function Lips() {
               </MenuButton>
               <MenuList >
                
-                <MenuItemOption onClick={() => changeUrlType("crayon")}>Lip Crayon</MenuItemOption>
+                <MenuItemOption onClick={() => changeUrlType("lip_stain")}>Lip Crayon</MenuItemOption>
                 <MenuItemOption onClick={() => changeUrlType("liquid")}>Liquid Lipstick </MenuItemOption>
-                <MenuItemOption onClick={() => changeUrlType("gloss")}>Lip Gloss</MenuItemOption>
-                
+                <MenuItemOption onClick={() => changeUrlType("lip_gloss")}>Lip Gloss</MenuItemOption>
                 <MenuItemOption onClick={() => changeUrlType("")}>Reset Filters</MenuItemOption>
               </MenuList>
             </Menu>
