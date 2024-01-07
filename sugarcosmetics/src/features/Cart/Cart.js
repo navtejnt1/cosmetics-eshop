@@ -44,23 +44,6 @@ userName:'Login/Register'
     toggleUsername:(state,action)=>{
       state.userName=action.payload;
     }
-    /* addtoCart:(state,action)=>{
-        state.cartItems.push(action.payload);
-        
-    },
-    increment: (state) => {
-      console.log("hi")
-      console.log(state.cartItems[0].quantity)
-      state.cartItems.quantity+= 1
-      
-      
-    },
-    decrement: (state) => {
-      state.cartItems.quantity -= 1
-    },/*
-    incrementByAmount: (state, action) => {
-      state.value += action.payload
-    }, */
   },
 })
 
