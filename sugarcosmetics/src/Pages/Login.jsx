@@ -30,7 +30,7 @@ const [randomOtp,setRandomOtp]= useState('')
                 
                 () =>{
 
-                  if(phone.length!==10){
+                  if(phone.length!=10){
                     alert("Please enter a valid phone number")
                  }
 
@@ -70,7 +70,7 @@ const [randomOtp,setRandomOtp]= useState('')
         return (
           <>
             <Button onClick={onOpen} mr={3} mt='30px' bg='black' color='white'>VALIDATE OTP</Button>
-            { (randomOtp===pin) ? 
+            { (randomOtp==pin) ? 
             <Modal  isOpen={isOpen} onClose={onClose}>
            
               <ModalOverlay />
