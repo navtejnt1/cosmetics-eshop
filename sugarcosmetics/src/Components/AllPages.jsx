@@ -31,12 +31,13 @@ function AllPages
         <Route path="/Face"  element={<Face/>}></Route>
 
         <Route path="/makeup/:id"  element={<MakeupIndividual/>}></Route>
-        <Route path="/lips/:id"  element={<LipsIndividual/>}></Route>
+        <Route path="/lipstick/:id"  element={<LipsIndividual/>}></Route>
+        <Route path="/lip_gloss/:id"  element={<LipsIndividual/>}></Route> 
+        <Route path="/Liquid /:id"  element={<LipsIndividual/>}></Route> 
+        <Route path="/Lip stain/:id"  element={<LipsIndividual/>}></Route> 
         <Route path="/search/"  element={<Search/>}></Route>
-        
        </Routes>
 
     </div>
 }
-export default AllPages
-;
+export default AllPages;

@@ -27,7 +27,7 @@ return <div>
               </div>
               <Box   w='fit-content' display='flex' m='auto' gap='6px'>
         <Text mt='3px' color='green'>   <GiRoundStar  /></Text>
-        <Text color='green'>{props.rating}</Text>
+        <Text color='green'>{props.rating?  props.rating : '4.5'}</Text>
         </Box>
               <div className={styles.productPrice}>
               {props.price === '0.0' ?  "₹ 999" : `₹${props.price*70..toFixed(0)}`}

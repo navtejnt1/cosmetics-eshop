@@ -8,19 +8,19 @@ import {  useDispatch } from 'react-redux'
 import { addToCart } from "../../features/Cart/Cart";
 export default function LipsIndividual() {
 
-    const dispatch = useDispatch();
+    const dispatch = useDispatch(); 
    
     const [product, setproduct] = useState({});
-    const {catg, id } = useParams();
+    const {catg ,id} = useParams();
     const getData = async () => {
        
         try {
-            let res = await  fetch(`https://cosmeticsapi1.herokuapp.com/Lips/${id}`)
+            let res = await  fetch(`https://makeup-api.herokuapp.com/api/v1/products/${id}.json`)
             let data = await res.json();
             console.log(id);
             console.log(catg);
+            console.log(data);
             setproduct(data)
-
         } catch (error) {
             
         }
@@ -34,25 +34,29 @@ export default function LipsIndividual() {
         url: product.image,
         description: product.name,
         price: product.price,
-       id: product.id
+        id: product.id
     }
-return <div>
+return (
+<div>
 
 <Box w='90%' bg='white' margin='10px auto' borderRadius='10px'>
    <Flex> 
      <Box p='20px' border='1px solid #e4e4e4' m='20px' borderRadius='10px'>
-     <img width='247px' height='337px' src={product.image} alt="prof-pic" />
+     <img width='300px'  src={product.api_featured_image
+} alt="prof-pic" />
      </Box>
      <Flex m='20px' p='10px' flexDirection='column' gap='10px'>
         <Box>
-            <Text fontSize='20px' w='fit-content'>{product.name}</Text>
+            <Text fontSize='40px' w='fit-content'>{product.name}</Text>
+
+            <p> {product.description}</p>
         </Box>
         <Box border='1px solid #e4e4e4'  w='fit-content' p='3px 10px'  display='flex' borderRadius='5px' gap='5px' >
         <Text mt='2px'>   <GiRoundStar  /></Text>
-        <Text>{product.rating}</Text>
+        <Text>{product.rating?  product.rating : 4.5}</Text>
         </Box>
         <Box border='3px solid aliceblue' w='fit-content'>
-            <Text> ₹{product.price}</Text>
+            <Text> ₹{product.price*70}</Text>
          </Box>
          <Box bg='#f2f2f2'  w='fit-content' display='flex' flexDirection='column' gap='10px' p='10px 20px' borderRadius='10px' >
          
@@ -84,6 +88,6 @@ return <div>
    </Flex>
 </Box>
 </div>
-
+)
 }
  

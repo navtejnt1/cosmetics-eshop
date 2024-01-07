@@ -5,14 +5,13 @@ import React, { useEffect, useState } from 'react'
 import { GoChevronDown } from 'react-icons/go';
 
 import {
-  Menu,
+  Menu, 
   MenuButton,
   MenuList,
   MenuItemOption,
-
   Button,
-
-} from '@chakra-ui/react'
+}
+from '@chakra-ui/react'
 import ProductBox from '../Components/ProductBox/ProductBox';
 
 function Lips() {
@@ -47,7 +46,6 @@ function Lips() {
   }
   function changeUrlType(prod) {
     setProd(prod)
-
   }
   useEffect(() => {
     let url = "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=lipstick"
@@ -116,7 +114,8 @@ function Lips() {
         </Box>
         <Grid display='grid' templateColumns={{ lg:'repeat(3,1fr)',md:'repeat(2,1fr)',sm:'repeat(1,1fr)'}} w='75%' m='10px'>
 
-          {data.map((elem) => (elem.price !== undefined && <GridItem><ProductBox rating={elem.rating} catg={elem.catg} id={elem.id} url={elem.api_featured_image } description={elem.name} price={elem.price} /></GridItem>))}
+          {data.map((elem) => (elem.price !== undefined && <GridItem><ProductBox rating={elem.rating} catg={elem.category
+} id={elem.id} url={elem.api_featured_image } description={elem.name} price={elem.price} /></GridItem>))}
 
 
         </Grid>

@@ -6,7 +6,7 @@ export default function CartProduct({id, image, title, price, quantity=0}) {
 
    
 const dispatch = useDispatch();
-
+ 
     return <div>
 <Flex  p='6px'>
 <Image  borderRadius='5px' width='36px' height='48px' src={image} alt="" />
