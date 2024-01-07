@@ -19,7 +19,7 @@
 
 ## Madhukar Kumar -> [GitHub](https://github.com/Madhukarkrgithub) , [Linkedin](https://www.linkedin.com/in/madhukarkr2468/)
 
-## Rishik Sinha -> [GitHub]() , [Linkedin]()
+## Rishik Sinha -> [GitHub](https://github.com/rishiksinha59) , [Linkedin](https://www.linkedin.com/in/rishik-sinha-61a718287/)
 
 # Tech Stack:-
 - HTML
