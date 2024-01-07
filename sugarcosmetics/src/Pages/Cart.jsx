@@ -36,9 +36,9 @@ export default function Cart() {
   const [isdiscount, setisdiscount] = useState(false);
   const getTotal = () => {
 
-    let totalPrice = 0
+    let totalPrice = 0;
     cart.forEach(item => {
-      totalPrice += item.price * item.quantity
+      totalPrice += (item.price*70) * item.quantity
     })
 
     return { totalPrice }
@@ -101,14 +101,14 @@ export default function Cart() {
     {
       url: 'https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-matte-as-hell-crayon-mini-lipstick-12-baby-houseman-28220228632659_584be809-56c3-4baf-b90b-8db9e95b2afe.jpg?v=1659698252',
       description: 'Matte As Hell Crayon Mini Lipstick - 12 Baby Houseman',
-      price: 199,
+      price: 299,
       id: uuidv4()
 
     },
     {
       url: 'https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-wonder-woman-creamy-matte-lipstick-03-crime-fighter-berry-pink-28132892737619_a13f2b4c-ce5f-4754-a790-ef61d79ba3ed.jpg?v=1660122776',
       description: 'Wonder Woman Creamy Matte Lipstick - 03 Crime Fighter ',
-      price: 299,
+      price: 399,
       id: uuidv4()
     }
   ]
@@ -118,19 +118,17 @@ export default function Cart() {
 
 
   function ToastExample() {
-   
-   
     const toast = useToast()
     return (
     <Link to='/'> <button
         style={{ backgroundColor: 'black', color: 'white', width: '300px', borderRadius: '10px', fontSize: '20px', padding: '10px', float: 'right', marginRight: '30px', marginTop: '30px', marginBottom: '30px' }}
         /* backgroundColor='black' color='white' width='300px' size='lg' */
-        onClick={() =>{
+          onClick={() =>{
           toast({
             title: 'Order Placed',
             description: "Thanks for Shopping.",
             status: 'success',
-            duration: 9000,
+            duration: 1000,
             isClosable: true,
 
           })
@@ -297,11 +295,9 @@ export default function Cart() {
         <Heading as='h5' m='10px 0px' size='sm' >CART SUMMARY</Heading >
         <Box bg='white' borderRadius='10px' m='12px 30px' border='1px solid #e4e4e4'>
 
-          {cart.map((image) =>
-
-            <CartProduct key={image.id} id={image.id} image={image.url} title={image.description} price={image.price} quantity={image.quantity} />
-
-          )}
+      {cart.map((image) =>
+    <CartProduct key={image.id} id={image.id} image={image.url} title={image.description} price={image.price} quantity={image.quantity} />
+      )}
 
 
         </Box>
