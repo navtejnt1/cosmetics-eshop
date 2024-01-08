@@ -30,7 +30,7 @@ return <div>
         <Text color='green'>{props.rating?  props.rating : '4.5'}</Text>
         </Box>
               <div className={styles.productPrice}>
-              {props.price === '0.0' ?  "₹ 999" : `₹${props.price*70..toFixed(0)}`}
+              {props.price === '0.0' ?  "₹ 259" : `₹${props.price*70..toFixed(0)}`}
               </div>
               <div className={styles.buttongrp}>
              <button  > <IconButton border='2px solid black' fontSize='18px' as={FiHeart} color='black' p='3px'/></button>

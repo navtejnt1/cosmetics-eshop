@@ -70,7 +70,7 @@ function Footer() {
           </div>
         </div>
         <hr />
-        <div className={styles.cpr}><h3>Copyright © 2022 SUGAR Cosmetics. All rights reserved.</h3></div>
+        <div className={styles.cpr}><h3>Copyright © 2024 SUGAR Cosmetics. All rights reserved.</h3></div>
       </div>
 
     </>

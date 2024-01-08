@@ -46,7 +46,7 @@ return (
 } alt="prof-pic" />
      </Box>
      <Flex m='20px' p='10px' flexDirection='column' gap='10px'>
-        <Box>
+        <Box width='550px'>
             <Text fontSize='40px' w='fit-content'>{product.name}</Text>
 
             <p> {product.description}</p>
