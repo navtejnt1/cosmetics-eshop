@@ -27,18 +27,18 @@ export default function Cart() {
    
   }
 
-  const cart = useSelector((state) => state.cart.cartItems);
+  const cart = useSelector( (state) => state.cart.cartItems);
  
   const dispatch = useDispatch();
   const useraddress = JSON.parse(localStorage.getItem('Address'));
   const [coupon, setCoupon] = useState("");
   const [discount, setdiscount] = useState(0);
-  const [isdiscount, setisdiscount] = useState(false);
+  const [isdiscount, setisdiscount] =  useState(false);
   const getTotal = () => {
 
     let totalPrice = 0;
     cart.forEach(item => {
-      totalPrice += (item.price*70) * item.quantity
+      totalPrice += (item.price*70) *item.quantity
     })
 
     return { totalPrice }
@@ -50,7 +50,7 @@ export default function Cart() {
 
   const getShipping = () => {
     let shipping = 0;
-    if (getTotal().totalPrice < 500) {
+    if (getTotal().totalPrice< 500) {
       shipping = 99;
     }
 
