@@ -7,7 +7,7 @@
 **Sugar Cosmetics Clone**
 
 # Deployed Link:-
--
+
 
 ## <span style="color:rgb(255, 200, 0)"> Team Members: </span>
 
