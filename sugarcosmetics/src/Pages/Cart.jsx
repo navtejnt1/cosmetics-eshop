@@ -38,7 +38,7 @@ export default function Cart() {
 
     let totalPrice = 0;
     cart.forEach(item => {
-      totalPrice += (item.price*70) *item.quantity
+      totalPrice += (item.price*80) *item.quantity
     })
 
     return { totalPrice }
