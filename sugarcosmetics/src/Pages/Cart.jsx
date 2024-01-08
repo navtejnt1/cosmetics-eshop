@@ -64,8 +64,8 @@ export default function Cart() {
    }
 
   const getDiscount = ()=>{
-    console.log(coupon==='HEYW')
-    if(coupon==='HEYW'){
+    console.log(coupon==='MASAI')
+    if(coupon==='MASAI'){
       setisdiscount(true)
       let dis=getFinal().finalPrice/5
       setdiscount(dis)
