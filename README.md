@@ -7,7 +7,7 @@
 **Sugar Cosmetics Clone**
 
 # Deployed Link:-
-
+- https://sugarcosmetics-awcs4db1s-navtejs-projects.vercel.app/
 
 ## <span style="color:rgb(255, 200, 0)"> Team Members: </span>
 
